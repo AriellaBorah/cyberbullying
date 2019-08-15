@@ -5,10 +5,11 @@
 }
 
 body {
-  background-color: #cce6ff;
+  background-color: #0E001C;
   margin: 50px;
-  margin-top: 75px;
+  margin-top: 65px;
   margin-left: 190px;
+  color: #d7fffa;
 }
 
 
@@ -23,7 +24,7 @@ h1 {
 }
 
 .sidenav {
-  height: 80%;
+  height: 70%;
   color: #008080;
   width: auto;
   position: fixed;
@@ -32,7 +33,7 @@ h1 {
   left: 0;
   margin-left: 10px;
   margin-top: 70px;
-  background-color: #b3ffff;
+  background-color: #012E57;
   overflow-x: hidden;
   padding-top: 25px;
   padding-right: 10px;
@@ -45,12 +46,14 @@ h1 {
    padding: 20px;
    text-decoration: none;
    font-size: 15px;
+   text-shadow: 1px 1px #00d2ff;
    display: block;
+   color: #d7fffa;
   }
 
   .sidenav a: hover {
     background-color: #b3f0ff;
-    color: white;
+    color: #00b8ff
   }
 
   .sidenav a.active {
@@ -70,31 +73,31 @@ h1 {
 }
 
 .topnav{
-  background-color: #b3ffff;
+  background-color: #012E57;
   font-size: 20px;
-  text-align: center;
+  text-align: left;
   top: 0;
   left: 0;
   padding: 5px;
   padding-left: 20px;
   position: fixed;
-  width: 1300px
+  width: 100%;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: center;
-  color: #008080;
+  color: #d7fffa;
   padding: 10px 70px;
   text-decoration: none;
+  text-shadow: 1px 1px #00d2ff;
   font-size: 25px;
 }
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #b3f0ff;
-  color: white;
+  color: #1406FE
 }
-
 
 h2 {
   font-size: 40px;
@@ -198,4 +201,10 @@ h2 {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+
+.slideshow-container {
+  float: right;
+  margin-left: 170px;
 }
