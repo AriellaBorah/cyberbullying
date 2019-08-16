@@ -1,3 +1,4 @@
+
 var quiz = [
   [1, "Do you have negative language? (bad, ugly...)","NO"],
   [2, "Is your messege sarcastic? (sarcasm does not always translate into text)", "NO"],
@@ -24,11 +25,11 @@ for(var i = 0; i < quiz.length; i += 1){
 }
 
 if(sensitive == 6){
-  document.write(`Your message appears to be perfectly appropriate! Nice Work!`);
+  document.write(`<h2>Your message appears to be perfectly appropriate! Nice Work!</h2>`);
 }else{
   if(sensitive >= 4){
-    document.write("Your message is mostly appropriate but it may require some revision")
+    document.write(`<h2>Your message appears to be mostly appropriate, but may require some revision.</h2>`)
   }else{
-    document.write("Your message requires revision.")
+    document.write(`<h2>Your message needs revision.</h2>`)
   }
 }

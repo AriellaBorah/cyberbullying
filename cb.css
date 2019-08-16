@@ -12,6 +12,10 @@ body {
   color: #d7fffa;
 }
 
+title{
+  font-family: "Aldrich";
+}
+
 
 h1 {
   font-size: 40px;
@@ -27,6 +31,16 @@ h2{
 h3{
   font-family: "Aldrich";
 }
+
+<style>
+if (response === quiz[i][2]){
+  font-family: "Aldrich";
+}
+
+if(sensitive == 6){
+  font-family: "Aldrich";
+}
+
 
 .sidenav {
   background-color: transparent;
