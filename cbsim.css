@@ -1,0 +1,106 @@
+*,*::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  /* background-image: url(brush2.jpg); */
+  color: #39ff14;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container {
+  height: 500px;
+  width: 800px;
+  max-width: 80%;
+  padding: 10px;
+  border: 20px double;
+  border-radius: 25px;
+  box-shadow: 0 0 10px 2px;
+}
+
+.btngrid {
+  display: grid;
+  grid-template-columns: repeat(1,auto);
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 5px;
+  background-color: gray;
+  border: 1px solid;
+  border-radius: 5px;
+  outline: none;
+}
+
+.btn:hover{
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: #39ff14;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #74ff14;
+  text-decoration: underline;
+}
+
+h1{
+  text-shadow:  2px 2px #da14ff;
+  font-size: 35px;
+  line-height: 50px
+}
+
+h2{
+  text-shadow:  2px 2px #da14ff;
+  line-height: 3em;
+}
+
+/* .navbar{
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 95%;
+  height:30px;
+  border: 5px double;
+  border-radius: 15px;
+  background-color: black;
+  padding-top: 10px;
+  text-align: right;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.navbar a{
+  padding: 50px;
+}
+
+.navbar input[type='text']{
+  border: 2px ridge #39ff14;
+  border-radius: 5px;
+  float:left;
+  margin-left: 35px;
+  background-color: white;
+  width: 300px;
+}
+
+.navbar input[type="submit"]{
+  float: left;
+  background-color: #39ff14;
+  border: ridge;
+  border-color: #39ff14;
+  border-radius: 4px;
+  color: white;
+  margin-left: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+} */
