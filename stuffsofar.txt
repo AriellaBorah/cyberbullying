@@ -1,0 +1,33 @@
+  <h1>|[ WELCOME TO THE CYBERBULLYING SIMULATION ]|</h1>
+  <h2>| BASED ON THE REAL LIFE EXPERIENCES OF CYBERBULLYING VICTIMS |</h2>
+
+  <p>.-.. .. -. . / -... .-. . .- -.-</p><br> <!-- line break -->
+
+  <div>you are a new student in high school. this can only end well</div>
+  <p>- .. -- . -....- ... -.- .. .--.</p> <!-- timeskip -->
+  <p>you've been here for a month now. things are great! you have a few friends, scheduling is good, and class isn't too hard</p>
+  <p>- .. -- . -....- ... -.- .. .--.</p> <!-- timeskip -->
+  <p>life is good</p>
+  <p>. ...- . -. - / .. -. -.-. --- -- .. -. --.</p> <!-- event incoming -->
+  <p>there's this new social media platform that's <i>really</i> popular these days. you make an account to fit in with everyone else.</p>
+  <p>what could go wrong?</p>
+  <p>. ...- . -. - / .. -. -.-. --- -- .. -. --.</p> <!-- event incoming -->
+  <p>you can put a picture of yourself on this. Do you <b>do it</b> or <b>not</b>?</p>
+
+  <p>.--. --- ... - / .- / .--. .. -.-. - ..- .-. .</p> <!-- post -->
+  <p>it's probably easier for your friends to find you if you put a picture, right?</p>
+  <p>[YOU HAVE PLACED A PROFILE PICTURE]</p>
+  <p>it's been pretty nice so far. you've seen many posts, liked many things, and followed lots of cool people.</p>
+  <p>you get a message one day.</p>
+  <p>you open the message</p>
+  <p>steve.a132: i know where you live. </p>
+  <p></p>
+
+  <p>-.. --- -. .----. - / .--. --- ... - / .- / .--. .. -.-. - ..- .-. .</p> <!-- dont post-->
+  <p>it's probably better if i put something else on the profile. i can always tell my friends about this later.</p>
+  <p>[YOU HAVE PLACED A PROFILE PICTURE]</p>
+  <p>it's been pretty nice so far. you've seen many posts, liked many things, and followed lots of cool people.</p>
+  <p>you get a message one day.</p>
+  <p>that's odd. you never get any messages. probably because you don't post much.</p>
+  <p>you open the message</p>
+  <p></p>
