@@ -42,6 +42,8 @@ if(sensitive == 6){
 }
 
 
+}
+
 .sidenav {
   background-color: transparent;
 }
@@ -76,7 +78,7 @@ if(sensitive == 6){
 
   .sidenav a: hover {
     background-color: #b3f0ff;
-    color: 	#00b8ff
+    color: #00b8ff
   }
 
   .sidenav a.active {
@@ -119,5 +121,72 @@ if(sensitive == 6){
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #b3f0ff;
-  color: 	#1406FE
+  color: #1406FE
+}
+
+
+
+
+
+
+/* Search bar */
+/*background color at the top navigation bar */
+
+.topnav {
+  overflow: hidden;
+  background-color: #012E57;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+
+.topnav .search-container button {
+  float: right;
+  padding:6px 24px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+
+/* When screen is less than 600px wide, stacks the links and the search field vertically */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
 }
