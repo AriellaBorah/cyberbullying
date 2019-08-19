@@ -20,6 +20,12 @@
      <a class="active" href="index.html">HOME</a>
      <a href="news.html">NEWS</a>
      <a href="about.html">ABOUT</a>
+
+     <div class="topnav">
+        <a class="active" href="">HOME</a>
+        <a href="">NEWS</a>
+        <a href="">ABOUT</a>
+        <input type="text" placeholder="Search...">
    </div>
    <div class="sidenav">
      <a href="cbinfo.html">INFO</a>
@@ -31,31 +37,46 @@
      <br>
      <h2><p><center>Cyberbullying</center></p></h2>
    </div>
+<<<<<<< Updated upstream
+=======
+
+
+
+   <div class="topnav">
+     <a class="active" href="#home">Home</a>
+     <a href="#News">News</a>
+     <a href="#About">About</a>
+     <div class="search-container">
+       <form action="/action_page.php">
+         <input type="text" placeholder="Search..." name="Search">
+         <button type="submit">Submit</button>
+       </form>
+     </div>
+   </div>
+
+
+
+<h2><p><center>Cyberbullying</center></p></h2>
+</div>
+>>>>>>> Stashed changes
 
 <!-- Slideshow -->
 <div class="slideshow-container">
 
 <!-- Full-width images with number and caption text -->
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
+  <div class="numbertext">2 / 2</div>
   <img src="smstatistics.jpg" style="width:80%">
-  <div class="Social Media Statistics of Cyberbullying">Social Media Statistics of Cyberbullying</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="bullying2.jpg" style="width:80%">
-  <div class="Stand Up To Bullies">Stand Up To Bullies</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
+  <div class="numbertext">2 / 2</div>
   <img src="bullying1.jpg" style="width:80%">
-  <div class="More Information">More Information</div>
 </div>
 
 
 <!-- Next and previous buttons -->
+<div class="arrows">
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
@@ -63,26 +84,22 @@
 
 <!-- The dots/circles -->
 <div style="text-align:center">
-<span class="dot" onclick="currentSlide(1)"></span>
 <span class="dot" onclick="currentSlide(2)"></span>
-<span class="dot" onclick="currentSlide(3)"></span>
+<span class="dot" onclick="currentSlide(1)"></span>
 </div>
 
 
 <script>
 var slideIndex = 1;
 showSlides(slideIndex);
-
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
 // Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -99,15 +116,6 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
-
-</body>
-
-<head>
-    <link rel="stylesheet" href="fpwebsite.css">
-    <meta rel="utf-8"
-    <link rel="stylesheet"
-      href="https://fonts.googleeapis.com/css?family=Aldrich"
-</head>
 
 
 </html>
