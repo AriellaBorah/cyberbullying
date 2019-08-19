@@ -59,12 +59,10 @@ a:hover {
 h1{
   text-shadow:  2px 2px #da14ff;
   font-size: 35px;
-  line-height: 50px
 }
 
 h2{
   text-shadow:  2px 2px #da14ff;
-  line-height: 3em;
 }
 
 .navbar{
