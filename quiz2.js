@@ -3,8 +3,8 @@ var quiz = [
   [1, "Do you have negative language? (bad, ugly...)","NO"],
   [2, "Is your messege sarcastic? (sarcasm does not always translate into text)", "NO"],
   [3, "Are you being CRITICAL or SUPPORTIVE?", "SUPPORTIVE"],
-  [4, "Is your messege offensive or aggressive", "NO"],
-  [5, "Is this comment focused on any steriotype associated with this person's race or ethnicity", "NO"],
+  [4, "Is your messege offensive or aggressive?", "NO"],
+  [5, "Is this comment focused on any steriotype associated with this person's race or ethnicity?", "NO"],
   [6, "Does your message include body shaming of any kind?", "NO"],
 ];
 
