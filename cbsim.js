@@ -1,5 +1,5 @@
-const textElement = document.getElementbyId('text')
-const optionButtonsElement = document.getElementbyId('option-button')
+const textElement = document.getElementById('text')
+const optionButtonsElement = document.getElementById('option-buttons')
 
 let state = {}
 
@@ -9,18 +9,17 @@ function startGame() {
 }
 
 function showTextNode(textNodeIndex) {
-  const textNode = textNodes.find(textNode => textNode.id ===
-  textNodeIndex)
+  const textNode = textNodes.find(textNode => textNode.id === textNodeIndex)
   textElement.innerText = textNode.text
   while (optionButtonsElement.firstChild) {
     optionButtonsElement.removeChild(optionButtonsElement.firstChild)
   }
 
   textNode.options.forEach(option => {
-    if showOption(option)) {
+    if (showOption(option)) {
       const button = document.createElement('button')
       button.innerText = option.text
-      buttonClassList.add('btn')
+      button.classList.add('btn')
       button.addEventListener('click', () => selectOption(option))
       optionButtonsElement.appendChild(button)
     }
@@ -28,38 +27,19 @@ function showTextNode(textNodeIndex) {
 }
 
 function showOption(option) {
-  return true
+  return option.requiredState == null || option.requiredState(state)
 }
 
 function selectOption(option) {
-
+  const nextTextNodeId = option.nextText
+  if (nextTextNodeId <= 0) {
+    return startGame()
+  }
+  state = Object.assign(state, option.setState)
+  showTextNode(nextTextNodeId)
 }
 
 const textNodes = [
-  {
-    id: 1,
-    text: 'you are a new student in high school. this can only end well. ',
-    options:[
-      {
-        text: 'do it',
-        nextText:2
-      },
-      {
-        text: 'no',
-        nextText:2
-      }
-    ]
-  },
-{
-  id: 2,
-  text:'',
-   options: [
-     {
-       text: ''
-       requiredState: ()
-     }
-   ]
-}
 ]
 
 startGame()
