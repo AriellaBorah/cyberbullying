@@ -13,6 +13,12 @@ body {
 }
 
 
+h2 {
+  color: white;
+  font-family: "Aldrich", verdana, verdana
+}
+
+
 h1 {
   font-size: 40px;
   color: white;
