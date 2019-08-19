@@ -12,6 +12,17 @@ body {
   color: #d7fffa;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+a:hover {
+  color: #39ff14;
+  text-decoration: line-through;
+}
+
 title{
   font-family: "Aldrich";
 }
@@ -24,13 +35,14 @@ h1 {
 }
 
 h2{
-  font-size: 30px;
-  font-family: "Aldrich";
+  text-shadow:  2px 2px #da14ff;
+  font-size: 35px;
 }
 
 h3{
-  font-family: "Aldrich";
+  text-shadow:  2px 2px #da14ff;
 }
+
 
 <style>
 if (response === quiz[i][2]){
@@ -149,6 +161,7 @@ if(sensitive == 6){
 
 .topnav .search-container {
   float: right;
+  margin-right: 20px
 }
 
 
