@@ -12,14 +12,10 @@ var answer;
 var response;
 var sensitive = 0
 
-for(var i = 0; i < quiz.length; i += 1){
-  answer = prompt(quiz[i][1]);
-  response = answer.toUpperCase();
-
-  if (response === quiz[i][2]){
+if (response === quiz[i][2]){
     document.write(`<h3> Answer ${quiz[i][0]} indicates an appropriate message.</h3>`);
     sensitive += 1
-  }else {
+}else {
     document.write(`<h3> Answer ${quiz[i][0]} indicates an inappropriate message.</h3>`);
 }
 }
