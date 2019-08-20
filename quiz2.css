@@ -33,10 +33,10 @@ a:hover {
   top: 0;
   left: 0;
   margin-left: 10px;
-  margin-top: 70px;
+  margin-top: 80px;
   background-color: #012E57;
   overflow-x: hidden;
-  padding-top: 25px;
+  padding-top: 30px;
   padding-right: 10px;
   padding-bottom: 25px;
   border: 3px ridge ;
@@ -45,6 +45,7 @@ a:hover {
 
   .sidenav a {
    padding: 20px;
+   padding-bottom: 25px;
    text-decoration: none;
    font-size: 15px;
    text-shadow: 1px 1px #00d2ff;
