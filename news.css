@@ -3,12 +3,13 @@ head {
   text-align: center;
 }
 
+
 .sidenav {
   background-color: transparent;
 }
 
 .sidenav {
-  height: 80%;
+  height: 70vh;
   color: #008080;
   width: auto;
   position: fixed;
@@ -16,56 +17,36 @@ head {
   top: 0;
   left: 0;
   margin-left: 10px;
-  margin-top: 70px;
-  background-color: #b3ffff;
+  margin-top: 80px;
+  background-color: #012E57;
   overflow-x: hidden;
-  padding-top: 25px;
+  padding-top: 30px;
   padding-right: 10px;
   padding-bottom: 25px;
-  border: 2px ridge ;
-  border-radius: 25px;
+  border: 3px ridge ;
+  border-radius: 15px;
   }
 
   .sidenav a {
    padding: 20px;
+   padding-bottom: 25px;
    text-decoration: none;
-   font-size: 12px;
+   font-size: 15px;
+   text-shadow: 1px 1px #00d2ff;
    display: block;
+   color: #d7fffa;
   }
 
   .sidenav a: hover {
     background-color: #b3f0ff;
-    color: white;
+    color: #00b8ff
   }
 
   .sidenav a.active {
     background-color: #00ace6;
     color: white;
   }
-
-.main {
-  margin-left: 200px;
-  font-size: 30px;
-  padding:10px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-.topnav{
-  background-color: #b3ffff;
-  font-size: 20px;
-  text-align: center;
-  top: 0;
-  left: 0;
-  padding: 5px;
-  padding-left: 20px;
-  position: fixed;
-  width: 1300px
-}
-
+  
 /* Style the links inside the navigation bar */
 .topnav a {
   float: center;
