@@ -12,12 +12,19 @@ body {
   color: #d7fffa;
 }
 
+h5 {
+  font-family: "Aldrich", verdana, verdana;
+}
 
+h4{
+  font-family: "Aldrich", verdana, verdana;
+}
 
 h1 {
   font-size: 40px;
   color: white;
-  font-family: "Aldrich", verdana, verdana
+  5px darkblue, 0 0 5px darkblue;
+  font-family: "Aldrich", verdana, verdana;
 }
 
 .sidenav {
@@ -205,7 +212,7 @@ h1 {
 }
 
 h3 {
-  font-family: "Aldrich";
+  font-family: "Aldrich", verdana, verdana;
   font-style: bold;
   font-size: 30px;
   color: lightblue;
@@ -235,6 +242,7 @@ h3 {
 }
 
 .topnav .search-container {
+  font-family: "Aldrich", verdana, verdana;
   float: right;
 }
 
@@ -258,8 +266,6 @@ h3 {
   border: none;
   cursor: pointer;
 }
-
-
 
 
 
