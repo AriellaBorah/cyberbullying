@@ -28,11 +28,7 @@ h1 {
 }
 
 .sidenav {
-  background-color: transparent;
-}
-
-.sidenav {
-  height: 70%;
+  height: 70vh;
   color: #008080;
   width: auto;
   position: fixed;
@@ -40,14 +36,14 @@ h1 {
   top: 0;
   left: 0;
   margin-left: 10px;
-  margin-top: 70px;
+  margin-top: 80px;
   background-color: #012E57;
   overflow-x: hidden;
-  padding-top: 25px;
+  padding-top: 30px;
   padding-right: 10px;
   padding-bottom: 25px;
-  border: 2px ridge ;
-  border-radius: 25px;
+  border: 3px ridge ;
+  border-radius: 15px;
   }
 
   .sidenav a {
@@ -68,7 +64,7 @@ h1 {
     background-color: #00ace6;
     color: white;
   }
-
+  
 .main {
   margin-left: 200px;
   font-size: 30px;
@@ -455,6 +451,7 @@ h2 {
 }
 
 .topnav .search-container {
+  font-family: "Aldrich", verdana, verdana;
   float: right;
 }
 
