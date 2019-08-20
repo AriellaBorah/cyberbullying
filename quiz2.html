@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang = "en">
 <head>
@@ -6,11 +5,77 @@
     <link rel="stylesheet" href="cb.css">
     <meta charset=" utf-8">
     <link rel="stylesheet" href="css/main.css">
-    <title>Is It Cyberbullying</title>
+    <title>Is It Cyberbullying???</title>
 
 </head>
 
 <body>
+  <div class="container">
+    <h1>Is It Cyberbullying???</h1>
+    <script src = "quiz2.js"></script>
+  </div>
+  <style>
+    button{
+      background-color: #00ace6;
+      font-family: "Aldrich";
+      font-size: 15px;
+      color: white;
+      border-radius: 0;
+    }
+    button.hover{
+      background-color: #b3f0ff;
+      font-family: "Aldrich";
+      font-size: 15px;
+      color: #00b8ff;
+      border-radius: 0;
+    }
+
+  </style>
+  <button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+
+  var quiz = [
+    [1, "Do you have negative language? (bad, ugly...)","NO"],
+    [2, "Is your messege sarcastic? (sarcasm does not always translate into text)", "NO"],
+    [3, "Are you being CRITICAL or SUPPORTIVE?", "SUPPORTIVE"],
+    [4, "Is your messege offensive or aggressive?", "NO"],
+    [5, "Is this comment focused on any steriotype associated with this person's race or ethnicity?", "NO"],
+    [6, "Does your message include body shaming of any kind?", "NO"],
+  ];
+
+  var answer;
+  var response;
+  var sensitive = 0
+
+  for(var i = 0; i < quiz.length; i += 1){
+    answer = prompt(quiz[i][1]);
+    response = answer.toUpperCase();
+
+    if (response === quiz[i][2]){
+      document.write(`<h3> Answer ${quiz[i][0]} indicates an appropriate message.</h3>`);
+      sensitive += 1
+    }else {
+      document.write(`<h3> Answer ${quiz[i][0]} indicates an inappropriate message.</h3>`);
+  }
+  }
+
+  if(sensitive == 6){
+    document.write(`<h2>Your message appears to be perfectly appropriate! Nice Work!</h2>`);
+  }else{
+    if(sensitive >= 4){
+      document.write(`<h2>Your message appears to be mostly appropriate, but may require some revision.</h2>`)
+    }else{
+      document.write(`<h2>Your message needs revision.</h2>`)
+
+    }
+  }
+;
+}
+</script>
   <div class="topnav">
     <a href="index.html">HOME</a>
     <a href="news.html">NEWS</a>
@@ -31,26 +96,6 @@
     <a href="resources.html">RESOURCES</a>
 
   </div>
-  <div class="container">
-    <h1>Is It Cyberbullying</h1>
-    <script src = "quiz2.js"></script>
-  </div>
-  <button onclick="window.location.href = 'quiz2.html';">Test New Message</button>
-  <style>
-    button{
-      background-color: #00ace6;
-      font-family: "Aldrich";
-      font-size: 15px;
-      color: white;
-      border-radius: 0;
-    }
-    button.hover{
-      background-color: #b3f0ff;
-      font-family: "Aldrich";
-      font-size: 15px;
-      color: #00b8ff;
-      border-radius: 0;
-    }
-  </style>
+
 </body>
 </html>
