@@ -10,22 +10,30 @@ var quiz = [
 
 var answer;
 var response;
-var sensitive = 0
+var sensitive = 0;
+var div = document.getElementById("answers");
+// function myFunction() {
+  for(var i = 0; i < quiz.length; i += 1){
+    answer = prompt(quiz[i][1]);
+    response = answer.toUpperCase();
 
-if (response === quiz[i][2]){
-    document.write(`<h3> Answer ${quiz[i][0]} indicates an appropriate message.</h3>`);
-    sensitive += 1
-}else {
-    document.write(`<h3> Answer ${quiz[i][0]} indicates an inappropriate message.</h3>`);
-}
-}
-
-if(sensitive == 6){
-  document.write(`<h2>Your message appears to be perfectly appropriate! Nice Work!</h2>`);
-}else{
-  if(sensitive >= 4){
-    document.write(`<h2>Your message appears to be mostly appropriate, but may require some revision.</h2>`)
-  }else{
-    document.write(`<h2>Your message needs revision.</h2>`)
+    if (response === quiz[i][2]){
+      document.write(`<h3> Answer ${quiz[i][0]} indicates an appropriate message.</h3>`);
+      // div.innerHTML += `Answer ${quiz[i][0]} indicates an appropriate message.`;
+      sensitive += 1
+    }else {
+      document.write(`<h3> Answer ${quiz[i][0]} indicates an inappropriate message.</h3>`);
   }
-}
+  }
+
+  if(sensitive == 6){
+    document.write(`<h2>Your message appears to be perfectly appropriate! Nice Work!</h2>`);
+  }else{
+    if(sensitive >= 4){
+      document.write(`<h2>Your message appears to be mostly appropriate, but may require some revision.</h2>`)
+    }else{
+      document.write(`<h2>Your message needs revision.</h2>`)
+
+    }
+  }
+  // }
